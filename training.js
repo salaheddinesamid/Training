@@ -25,8 +25,11 @@ function printName(name){
 function verify(input){
     if(input[0] == "S"){
         console.log("Yes");
-    }else{
+    }else if(input[0] == "A"){
+        console.log("Yes")
+    }
+    else{
         console.log("No")
     }
 }
-verify("Abdo")
+verify("Zbdo")
