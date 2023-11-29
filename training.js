@@ -32,4 +32,11 @@ function verify(input){
         console.log("No")
     }
 }
-verify("Zbdo")
+function verifyEnd(str){
+    if(str[str.length -1] == "A"){
+        console.log("Yes")
+    }else{
+        console.log("No")
+    }
+}
+verifyEnd("findO")
