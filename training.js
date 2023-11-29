@@ -16,4 +16,17 @@ function product(x,y,z){
 }
 //Executing function:
 product(2,3,4)
-//cccccccccccc
+//Example1:
+function printName(name){
+    console.log(`Hello ${name}`)
+}
+//
+//Example2:
+function verify(input){
+    if(input[0] == "S"){
+        console.log("Yes");
+    }else{
+        console.log("No")
+    }
+}
+verify("Abdo")
